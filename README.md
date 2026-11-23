@@ -19,4 +19,3 @@ Plan payment (manual): Provider → Plan → choose a paid plan → WhatsApp ope
 
 ## Where things are
 `src/app` pages and server actions · `src/lib` shared logic · `supabase/migrations` SQL · `docs/DEPLOYMENT.md` going live · `/terms`, `/privacy`, `/refund-policy` are DRAFT templates: fill the [BRACKETS] and have a lawyer review them before launch.
-# ROOVO
