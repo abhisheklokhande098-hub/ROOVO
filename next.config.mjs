@@ -7,6 +7,7 @@ const securityHeaders = [
   { key: 'Strict-Transport-Security', value: 'max-age=31536000' },
 ];
 export default {
+  output: 'standalone',
   experimental: { serverActions: { bodySizeLimit: '8mb' } },
   async headers() { return [{ source: '/(.*)', headers: securityHeaders }]; },
 };
